@@ -1,0 +1,13 @@
+﻿<xapCache source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\WinAuthentication_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="4/22/2014 10:58:15 AM">
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.dll" archivePath="WinAuthentication.dll" lastWriteTime="4/22/2014 10:58:15 AM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="4/22/2014 10:58:10 AM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="4/21/2014 3:17:09 PM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="4/21/2014 3:17:09 PM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="4/21/2014 3:17:09 PM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="4/21/2014 3:17:09 PM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="4/21/2014 3:17:09 PM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="4/21/2014 3:17:11 PM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="4/21/2014 3:17:09 PM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="4/21/2014 3:17:09 PM" />
+  <file source="C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="4/21/2014 3:17:12 PM" />
+</xapCache>

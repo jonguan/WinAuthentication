@@ -1,0 +1,38 @@
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\WinAuthentication.dll
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\WinAuthentication.pdb
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\AppManifest.xaml
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\Bin\Debug\WinAuthentication_Debug_AnyCPU.xap
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\obj\Debug\App.g.cs
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\obj\Debug\MainPage.g.cs
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.g.resources
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.Resources.AppResources.resources
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.csproj.GenerateResource.Cache
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.dll
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.pdb
+c:\users\jonguan\documents\visual studio 2012\Projects\WinAuthentication\WinAuthentication\obj\Debug\XapCacheFile.xml
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\WinAuthentication.dll
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\WinAuthentication.pdb
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\AppManifest.xaml
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\Bin\Debug\WinAuthentication_Debug_AnyCPU.xap
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\App.g.cs
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\MainPage.g.cs
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.g.resources
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.Resources.AppResources.resources
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.csproj.GenerateResource.Cache
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.dll
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\WinAuthentication.pdb
+C:\Users\jonguan\Documents\WinAuthentication\WinAuthentication\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,5 @@
+C:\Users\jonguan\Documents\WinAuthentication\WcfServiceForTesting\bin\WcfServiceForTesting.dll
+C:\Users\jonguan\Documents\WinAuthentication\WcfServiceForTesting\bin\WcfServiceForTesting.pdb
+C:\Users\jonguan\Documents\WinAuthentication\WcfServiceForTesting\obj\Debug\WcfServiceForTesting.csprojResolveAssemblyReference.cache
+C:\Users\jonguan\Documents\WinAuthentication\WcfServiceForTesting\obj\Debug\WcfServiceForTesting.dll
+C:\Users\jonguan\Documents\WinAuthentication\WcfServiceForTesting\obj\Debug\WcfServiceForTesting.pdb
