@@ -103,11 +103,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Service References\ServiceReference1\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -124,27 +119,8 @@
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\Service1.disco" />
-    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
-    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
-    <None Include="Service References\ServiceReference1\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
+    <None Include="Resources\ssl.crt" />
     <Content Include="ServiceReferences.ClientConfig" />
-    <None Include="Service References\ServiceReference1\Service1.wsdl" />
-    <None Include="Service References\ServiceReference1\Service1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference1\Service11.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference1\Service12.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference1\WinAuthentication.ServiceReference1.CompositeType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\AlignmentGrid.png" />
@@ -177,7 +153,240 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+    <Reference Include="SecureBlackbox">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.ASiC">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.ASiC.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.ASiC.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.ASiC.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Cloud">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.Cloud.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Cloud.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.Cloud.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVClient">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.DAVClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVClient.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.DAVClient.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVCommon">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.DAVCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVCommon.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.DAVCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVServer">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.DAVServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVServer.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.DAVServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DC">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.DC.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DC.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.DC.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.EDI">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.EDI.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.EDI.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.EDI.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.FTPS">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.FTPS.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.FTPS.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.FTPS.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.FTPSServer">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.FTPSServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.FTPSServer.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.FTPSServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTP">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.HTTP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTP.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.HTTP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTPCommon">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.HTTPCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTPCommon.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.HTTPCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTPServer">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.HTTPServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTPServer.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.HTTPServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.LDAP">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.LDAP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.LDAP.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.LDAP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Mail">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Mail.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.Mail.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.MIME">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.MIME.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.MIME.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.MIME.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Office">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Office.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.Office.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PDF">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PDF.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PDF.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGP">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGP.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPLDAP">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGPLDAP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPLDAP.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGPLDAP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPMIME">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGPMIME.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPMIME.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGPMIME.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPSSH">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGPSSH.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPSSH.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGPSSH.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPTLS">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGPTLS.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPTLS.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PGPTLS.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKI">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PKI.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKI.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PKI.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKIPDF">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PKIPDF.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKIPDF.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PKIPDF.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKISSH">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PKISSH.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKISSH.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.PKISSH.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTP">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTP.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SFTP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTPCommon">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SFTPCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTPCommon.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SFTPCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTPServer">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SFTPServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTPServer.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SFTPServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SMIME">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SMIME.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SMIME.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SMIME.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHClient">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSHClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHClient.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSHClient.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHCommon">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSHCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHCommon.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSHCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHServer">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSHServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHServer.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSHServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLClient">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSLClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLClient.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSLClient.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLCommon">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSLCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLCommon.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSLCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLServer">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSLServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLServer.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.SSLServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.XML">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.XML.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.XML.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.XMLSecurity">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.XMLSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.XMLSecurity.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.XMLSecurity.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.ZIP">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.ZIP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.ZIP.Async">
+      <HintPath>..\..\..\..\..\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8\SecureBlackbox.ZIP.Async.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

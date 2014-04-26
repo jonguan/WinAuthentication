@@ -2,11 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAuthentication", "WinAuthentication\WinAuthentication.csproj", "{C4A834E7-1974-43C9-9674-6679F5958E8C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223} = {F33EF05E-4AEB-4889-AA7D-F420F20EE223}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceForTesting", "WcfServiceForTesting\WcfServiceForTesting.csproj", "{F33EF05E-4AEB-4889-AA7D-F420F20EE223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,14 +31,6 @@ Global
 		{C4A834E7-1974-43C9-9674-6679F5958E8C}.Release|x86.ActiveCfg = Release|x86
 		{C4A834E7-1974-43C9-9674-6679F5958E8C}.Release|x86.Build.0 = Release|x86
 		{C4A834E7-1974-43C9-9674-6679F5958E8C}.Release|x86.Deploy.0 = Release|x86
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223}.Release|ARM.ActiveCfg = Release|Any CPU
-		{F33EF05E-4AEB-4889-AA7D-F420F20EE223}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
