@@ -15,4 +15,6 @@ Instead, navigate to the IP address (ex http://192.168.159.140), found with ipco
 3. Turn off IIS: http://www.sitepoint.com/unblock-port-80-on-windows-run-apache/
 4. For 64 bit windows, fix the SessionCache directory issue: https://wiki.apache.org/httpd/SSLSessionCache
 5. Windows phone has issues with SSL pinning: http://stackoverflow.com/questions/17741740/read-ssl-certificate-details-on-wp8
-6. 
+6. Confirmed by MSFT employee: 
+http://social.msdn.microsoft.com/Forums/wpapps/en-US/34b18974-f056-4717-a0d6-68c6ea2cbdd4/how-can-i-read-ssl-certificate-details-on-my-windows-phone-app?forum=wpdevelop
+7. 
