@@ -28,6 +28,8 @@ http://social.msdn.microsoft.com/Forums/wpapps/en-US/34b18974-f056-4717-a0d6-68c
 
 "Although you can install trusted certificates on the Windows Phone, in the current release, the Windows Phone app platform does not expose those certificates’ values to apps. As a result, in the current release, you cannot implement mutual authentication scenarios – scenarios in which the client sends its own certificates to the web service in addition to receiving one -- using certificates installed in the root store."
 
+Solution:
+
 4. Install Eldos BlackBox external library (this does what Windows Phone 8 should have done) - https://www.eldos.com/sbb/index.php#product
 5. Install eldos dlls (C:\Program Files (x86)\EldoS\SecureBlackbox.NET\Assemblies\WindowsPhone_8) to project via Solution Exploerer -> Project -> right click -> Add References 
 
